@@ -18,5 +18,5 @@ Simply open the project in intellij and run the main app-class (NonsenseGenerato
 Open the browser and navigate to <b>localhost:8080/nonsense</b>
 
 ### Contribute
-Feel free to add or remove new funny words (com.jasofalcon.nonsensegenerator.data.<b>WordsStore</b>)
+Feel free to add or remove new funny words and submit PR (com.jasofalcon.nonsensegenerator.data.<b>WordsStore</b>)
 
