@@ -3,7 +3,7 @@ Simple spring-boot app to generate simple nonsense statements.
 
 
 
-### [Demo - Try out](https://evening-shelf-46822.herokuapp.com/nonsense)
+## [Demo](https://evening-shelf-46822.herokuapp.com/nonsense)
 
 
 ### Examples generated:
