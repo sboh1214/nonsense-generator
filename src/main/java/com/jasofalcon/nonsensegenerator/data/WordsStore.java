@@ -68,7 +68,6 @@ public class WordsStore {
             "mouse",
             "life",
             "grizzly"
-
     );
 
     private static final List<String> verbs = List.of(
@@ -110,8 +109,6 @@ public class WordsStore {
             "tickles",
             "stalks",
             "wrestles"
-
-
     );
 
     private static final List<String> adjectives = List.of(
@@ -199,7 +196,8 @@ public class WordsStore {
             "nervously",
             "eventually",
             "gracefully",
-            "kindly"
+            "kindly",
+            "mysteriously"
     );
 
 }

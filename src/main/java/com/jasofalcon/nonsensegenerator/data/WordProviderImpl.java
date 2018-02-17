@@ -7,9 +7,9 @@ import java.util.Random;
 import java.util.function.Supplier;
 
 @Repository
-public class WordProviderImpl implements WordProvider{
+public class WordProviderImpl implements WordProvider {
 
-    public String provide(Supplier<List<String>> getWords){
+    public String provide(Supplier<List<String>> getWords) {
         List<String> words = getWords.get();
         Random r = new Random();
         return words.get(r.nextInt(words.size()));
