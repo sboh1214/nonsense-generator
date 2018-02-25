@@ -1,7 +1,6 @@
 package com.jasofalcon.nonsensegenerator.service;
 
 import com.jasofalcon.nonsensegenerator.data.WordProvider;
-import com.jasofalcon.nonsensegenerator.data.WordProviderImpl;
 import com.jasofalcon.nonsensegenerator.data.WordsStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,14 +22,14 @@ public class NonsenseServiceImpl implements NonsenseService {
     @Override
     public String makeNonsense() {
 
-        String subject = createSubject();
+        String subject = createNoun();
         String verb = createVerb();
-        String object = createSubject();
+        String object = createNoun();
 
         return capitalize(subject + SPACE + verb + SPACE + object + ".");
     }
 
-    private String createSubject() {
+    private String createNoun() {
         String noun = wordProvider.provide(WordsStore::getNouns);
         String adjective = getPossibleSideWord(WordsStore::getAdjectives);
 
