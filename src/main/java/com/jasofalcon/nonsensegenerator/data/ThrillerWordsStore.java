@@ -3,7 +3,7 @@ package com.jasofalcon.nonsensegenerator.data;
 
 import java.util.List;
 
-public class WordsStore {
+public class ThrillerWordsStore {
 
     public static List<String> getNouns() {
         return nouns;
@@ -33,7 +33,6 @@ public class WordsStore {
             "flower",
             "fever",
             "christmas tree",
-            "wormhole",
             "sapphire",
             "demon",
             "angel",
@@ -44,7 +43,6 @@ public class WordsStore {
             "void",
             "tooth fairy",
             "snowflake",
-            "Miley Cyrus",
             "Snoopy",
             "machine",
             "software",
@@ -56,7 +54,6 @@ public class WordsStore {
             "chameleon",
             "sofa",
             "dongle",
-            "nipple",
             "rock",
             "fish",
             "planet",
@@ -67,7 +64,10 @@ public class WordsStore {
             "Lucifer",
             "mouse",
             "life",
-            "grizzly"
+            "grizzly",
+            "Criminal", "culprit", "suspect", "victim", "murder", "ruler", "satan", "devil", "assassin", "envoy", "destroyer",
+            "wrecker", "psychic", "blind", "girl", "elder", "disabled person", "hammer", "ax", "luminal", "gun", "needle", "blood",
+            "death", "psychopath", "lunatic", "eccentric", "freak", "intern"
     );
 
     private static final List<String> verbs = List.of(
@@ -108,7 +108,10 @@ public class WordsStore {
             "killed",
             "tickles",
             "stalks",
-            "wrestles"
+            "wrestles",
+            "Die", "kill", "murder", "disappear", "abduct", "poison", "fight", "battle", "escape", "run", "revive", "blame",
+            "remove", "eliminate", "throw", "infer", "scream", "corrupt", "deprave", "startle", "embarrass", "inject", "grimace",
+            "commit", "faint", "hack", "tie"
     );
 
     private static final List<String> adjectives = List.of(
@@ -159,7 +162,9 @@ public class WordsStore {
             "abandoned",
             "abusive",
             "autistic",
-            "shitty"
+            "shitty",
+            "Strange", "fishy", "suspicious", "mysterious", "savage", "barbarous", "depraved", "corrupt", "dark",
+            "dusky", "horrible", "specific", "unusual", "nonsense", "inordinate"
     );
 
     private static final List<String> adverbs = List.of(
@@ -197,7 +202,8 @@ public class WordsStore {
             "eventually",
             "gracefully",
             "kindly",
-            "mysteriously"
+            "mysteriously",
+            "Awfully", "extremely", "chaotically", "bitterly", "disjointedly", "messily", "distemperedly", "puzzledly"
     );
 
 }

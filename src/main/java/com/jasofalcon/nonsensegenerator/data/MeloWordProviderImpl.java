@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.function.Supplier;
 
 @Repository
-public class WordProviderImpl implements WordProvider {
+public class MeloWordProviderImpl implements MeloWordProvider {
 
     public String provide(Supplier<List<String>> getWords) {
         List<String> words = getWords.get();

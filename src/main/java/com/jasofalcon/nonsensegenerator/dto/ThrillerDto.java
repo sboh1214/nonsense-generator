@@ -1,9 +1,9 @@
 package com.jasofalcon.nonsensegenerator.dto;
 
-public class NonsenseDto {
+public class ThrillerDto {
     private final String sentence;
 
-    public NonsenseDto(String sentence) {
+    public ThrillerDto(String sentence) {
         this.sentence = sentence;
     }
 
